@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { categories, tools } from "@/lib/tools.config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://tools.ramees.dev";
+  const baseUrl = "https://tools.ramzradio.in";
 
   // Category pages
   const categoryUrls = categories.map((cat) => ({
